@@ -1,0 +1,39 @@
+/* Reducir el tamaño del carousel */
+#carouselExampleCaptions {
+    max-width: 80%; /* Cambiar el valor según sea necesario */
+    margin: auto; /* Centrar el carousel */
+  }
+  
+  /* Reducir el tamaño de las imágenes dentro del carousel */
+  #carouselExampleCaptions img {
+    max-width: 100%; /* Ajustar el tamaño máximo de las imágenes */
+    height: auto; /* Mantener la proporción de aspecto */
+  }
+  
+  /* Ajustar el tamaño del contenido dentro de las diapositivas */
+  .carousel-caption {
+    max-width: 80%; /* Cambiar el valor según sea necesario */
+    margin: auto; /* Centrar el contenido */
+  }
+  
+  .card-body {
+    /*max-height: 200px; /* Establece la altura máxima para el cuerpo de la tarjeta */
+    overflow: hidden; /* Oculta el exceso de contenido */
+  }
+  
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 100%;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Asegura que la altura de la tarjeta se ajuste al contenido */
+  }
+  
+  
